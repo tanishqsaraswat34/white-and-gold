@@ -1,0 +1,203 @@
+
+
+    @media (max-width: 768px) {
+      .navbar {
+        text-align: center;
+      }
+
+      .logo {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .btns {
+        width: 100%;
+        margin-top: 10px;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+
+    @media (min-width: 769px) {
+      .logo {
+        width: 40vw;
+      }
+
+      .btns {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .btn {
+        margin-left: 10px;
+      }
+    }
+
+    a:hover {
+      text-decoration: underline color(#FFD700);
+    }
+
+    .navbar-toggler {
+      border-color: black;
+      /* Change the border color */
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+ }
+
+ .carousel-item {
+  position: relative;
+}
+
+.carousel-item img {
+  height: 400px;
+  /* Adjust the height as needed */
+  object-fit: cover;
+  /* Ensures the image covers the area without distortion */
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px;
+    /* Adjust the height for smaller devices */
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-item img {
+    height: 120px;
+    /* Further adjust the height for phones */
+  }
+}
+    .footer {
+      background-color: gold;
+      color: black;
+      padding: 30px 0;
+      margin-top: 30px;
+    }
+
+    .footer h5 {
+      color: black;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    .footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer li {
+      margin-bottom: 10px;
+    }
+
+    .footer a {
+      color: black;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .footer a:hover {
+      color: #f00;
+    }
+
+    .copyright {
+      text-align: center;
+      font-size: 14px;
+    }
+
+
+
+    /* styles for navbar of options */
+    .navbar-nav .nav-link {
+      position: relative;
+      padding: 10px 15px;
+
+      /* Adjust padding to fit design */
+    }
+
+    .navbar-nav .nav-link:hover {
+      
+      background-color: gold;
+
+
+      /* Ensure text is readable on light background */
+    }
+
+    .navbar-nav .nav-link::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 3px;
+      width: 0;
+      background-color: goldenrod;
+      /* Golden color */
+      transition: width 0.5s ease;
+      /* Slower speed for underline expansion */
+    }
+
+    .navbar-nav .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .dropdown-menu .dropdown-item {
+      display: flex;
+      align-items: center;
+      color: black;
+      background-color:white ;
+      padding: 10px;
+      text-decoration: none;
+    }
+    .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+    position: relative;
+    align-self: center;
+}
+
+    .dropdown-menu .dropdown-item:hover {
+      background-color: gold;
+      color: black;
+    }
+
+    .dropdown-menu .dropdown-item::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 3px;
+      width: 0;
+      background-color: goldenrod;
+      /* Golden color */
+      transition: width 0.5s ease;
+      /* Slower speed for underline expansion */
+    }
+
+    .dropdown-menu .dropdown-item:hover::after {
+      width: 100%;
+    }
+
+    .dropdown-menu {
+      background-color: rgba(32, 32, 152, 0.61);
+    }
+
+    .navbar-nav .nav-link.dropdown-toggle::after {
+      display: none;
+      /* Remove golden underline effect for the dropdown toggle */
+    }
+
+
+
+    /* casino games styles */
+    .casinogames img{
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+
+    }
+
+    
+  
